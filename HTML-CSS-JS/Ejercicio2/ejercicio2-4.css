@@ -1,0 +1,63 @@
+body{
+    background-image: url('./fondobiblio.png');
+    background-color: rgb(216, 180, 18);
+}
+
+
+h1{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+color: rgb(59, 59, 59);
+  text-shadow: 
+    -1px -1px 0 white,
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
+
+}
+
+.imgUNF{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+h2{
+    text-decoration: underline 3px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size:larger;    
+}
+
+a:hover{
+    color: wheat;
+}
+
+button{
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(253, 218, 178);
+    color: rgb(36, 36, 36);
+}
+
+button:hover{
+    background-color: white;
+}
+
+.contenedorTexto{
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-navegacion{
+    text-align: center;
+}
