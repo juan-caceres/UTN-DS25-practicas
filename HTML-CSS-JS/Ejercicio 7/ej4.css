@@ -1,0 +1,35 @@
+  .matriz {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+      gap: 10px; /* espacio entre botones */
+      max-width: 300px;
+      padding: 20px;
+    }
+
+    .matriz button {
+      padding: 10px;
+      font-size: 16px;
+      width: 100px;
+      cursor: pointer;
+    }
+
+  .colapsado{
+    text-align: center;
+    grid-column: span 2;
+    height: 30px;
+    border: 1px solid black;
+  }
+
+  .colapsado:hover{
+      background-color: rgb(212, 245, 255);
+  }
+
+  #mensajePortero{
+    border: 2px black dashed;
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 300px;
+    padding: 10px;
+  }
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios js</title>
+    <script src="codigo.js"></script>
+    <link rel="stylesheet" href="ej4.css">
+</head>
+<body>
+    <h1>ejercicios js</h1>
+    <label for="alturaArbol">Altura de Arbol</label>
+    <input style="height: 20px; margin: 5px; padding-left: 5px;" id="alturaArbol" placeholder="Ingrese altura de arbol">
+    <button onclick="crearArbol()">Crear Arbol</button>
+
+    <h3>Arbol de asteriscos</h3>
+    <div id="textoprueba">aqui se va a mostrar</div>
+
+    <h3>Portero electrico</h3>
+
+
+    <div class="matriz">
+    <!-- 16 botones en total -->
+        <p id="visorPiso" class="colapsado">PISO</p>
+        <p id="visorDpto" class="colapsado">DPTO</p>
+        <button  class="btnPortero" onclick="enviar(1)" id="1">1</button>
+        <button  class="btnPortero" onclick="enviar(2)" id="2">2</button>
+        <button  class="btnPortero" onclick="enviar(3)" id="3">3</button>
+        <button  class="btnPortero" onclick="enviar(4)" id="4">4</button>
+        <button  class="btnPortero" onclick="enviar(5)" id="5">5</button>
+        <button  class="btnPortero" onclick="enviar(6)" id="6">6</button>
+        <button  class="btnPortero" onclick="enviar(7)" id="7">7</button>
+        <button  class="btnPortero" onclick="enviar(8)" id="8">8</button>
+        <button  class="btnPortero" onclick="enviar(9)" id="9">9</button>
+        <button  class="btnPortero" onclick="enviar(0)" id="0">0</button>
+        <button onclick="llamar()">Llamar</button>
+        <button onclick="borrar()">Borrar</button>
+    </div>
+
+    <p id="mensajePortero">Llamado al piso NN, DEPTO NN</p>
+</body>
+</html>
