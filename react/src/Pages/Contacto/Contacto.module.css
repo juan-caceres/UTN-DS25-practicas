@@ -1,0 +1,18 @@
+
+
+.titulo{
+    color: green;
+}
+.infoContacto{
+    position: relative;
+    background-color: #a54334;
+    width: 400px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contactar{
+    margin: 30px;
+}
+
