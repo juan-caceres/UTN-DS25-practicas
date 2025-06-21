@@ -17,7 +17,7 @@ const CardLibro = ({titulo,autor,imagen,genero}) => {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary"  onClick={() => navigate('/Secciones')}>Ir</Button>
+        <Button variant="primary"  onClick={() => navigate('/Secciones')}>Ir a secciones</Button>
         
         <p style={{marginTop:"10px"}}>{genero}</p>
       </Card.Body>
