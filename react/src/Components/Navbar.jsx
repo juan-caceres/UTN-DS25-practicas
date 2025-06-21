@@ -1,23 +1,24 @@
-import { Link } from "react-router-dom";
-import styles from './Navbar.module.css'
-export default function Navbar() {
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+function NavegadorSuperior() {
   return (
-    <nav style={{
-        top:"230px",
-        left:"30%",
-        borderRadius:"5px",
-        position:"relative",
-        display: "flex",
-        gap: "3em",
-        padding: "5px",
-        background: "#a54334",
-        width:"50%",
-        zIndex: "1000",
-        justifyContent:"center" }}>
-      <Link className={styles.btnNav} to="/">Inicio</Link>
-      <Link className={styles.btnNav} to="/Contacto">Contacto</Link>
-      <Link className={styles.btnNav} to="/Registracion">Registraciones</Link>
-      <Link className={styles.btnNav} to="/Secciones">Secciones</Link>
-    </nav>
+    <>
+      <Navbar bg="light" data-bs-theme="light">
+        <Container>
+          <Navbar.Brand href="/">Inicio</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="Secciones">Secciones</Nav.Link>
+            <Nav.Link href="Registracion">Registracion</Nav.Link>
+            <Nav.Link href="Contacto">Contacto</Nav.Link>
+
+          </Nav>
+        </Container>
+      </Navbar>
+    </>
   );
 }
+
+export default NavegadorSuperior;

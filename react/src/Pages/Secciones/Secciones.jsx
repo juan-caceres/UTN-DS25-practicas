@@ -16,10 +16,10 @@ export default function Secciones() {
       <PaginaPrincipal inicio={15} fin ={20} />
       <h2>Crimen</h2>
         <PaginaPrincipal inicio={3} fin ={8} />
-      <h2>Terror</h2>
-      <PaginaPrincipal inicio={9} fin ={14} />
-
   
+        <h2>Terror</h2>
+      <PaginaPrincipal inicio={9} fin ={14} />
+ 
       
     </div>
 

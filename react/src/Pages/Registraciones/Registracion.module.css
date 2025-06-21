@@ -5,9 +5,11 @@ main{
 
 }
 input{
-    height: 20px;
+    height: 30px;
     border-radius: 5px;
     margin: 3px;
+    background-color: aliceblue;
+    
 }
 form{
     position: relative;
@@ -19,9 +21,12 @@ form{
 }
 label{
     margin: 10px;
+    color: white;
 }
 select{
     height: 30px;
+    background-color: whitesmoke;
+    color: black;
 }
 button{
     margin-top: 10px;

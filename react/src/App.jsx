@@ -1,17 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { DatosProvider } from './DatosContext';
-import Navbar from "./Components/Navbar";
 import Cabecera from './Components/Cabecera';
 import Home from "./Pages/home/Home";
 import Contacto from "./Pages/Contacto/Contacto";
 import Registracion from "./Pages/Registraciones/Registracion";
 import Secciones from "./Pages/Secciones/Secciones";
 import Footer from './Components/Footer';
-
+import NavegadorSuperior from './Components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -20,7 +18,7 @@ function App() {
     <div style={{ minHeight: '100vh'}}>
       <DatosProvider> 
         <Router>
-          <Navbar />
+          <NavegadorSuperior />
           <Cabecera />
           <div style={{
             display: "flex",
